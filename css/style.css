@@ -978,15 +978,19 @@ position: relative;
     position: relative;
     font-size: 21px;
     color: #6f6f6f;
-    left: 10px;
-    top: -15px;
+    left: -80px;
+    top: -50px;
+    font-family: "Bold";
+}
+.account .row .col .info-top .span-different { 
+    top: -80px;
 }
 .account .row .col .info-top h3 { 
     font-size: 23px;
     font-family: "Bold";
     color: #6f6f6f;
     font-weight: 300;
-    text-align: start;
+    text-align: center;
 }
 .account .row .col .info-top h4 { 
     font-size: 14px;
@@ -995,6 +999,12 @@ position: relative;
     padding: 10px 0;
     color: #6f6f6f;
 }
+.account .row .col .parent-icon { 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .account .row .col .icon { 
     position: relative;
     text-align: center;
@@ -1002,7 +1012,6 @@ position: relative;
     width: max-content;
     border-radius: 100%;
     padding: 10px;
-    left: 110px;
     top: -25px;
     z-index: 0;
 }
@@ -1455,6 +1464,10 @@ background-color: #089981cc;
         position: relative;
         right: 20px;
      }
+     .account .row .col .info-top .span-different { 
+        left: -150px;
+        top: -50px;
+     }
      .account .row { 
         flex-direction: column;
         row-gap: 20px;
@@ -1465,15 +1478,16 @@ background-color: #089981cc;
      .account .title h3::before {
 left: 38%;
      }
+     .quote { 
+        padding: 50px 20px;
+     }
      .quote .title h1::before { 
         left: 38%;
      }
      .account .row .col .info-top h3 { 
         text-align: center;
      }
-     .account .row .col .icon { 
-        display: none;
-     }
+   
      .quote .row { 
         flex-direction: column;
         row-gap: 20px;
@@ -1481,6 +1495,11 @@ left: 38%;
      .quote .group { 
         right: 200px;
         top: 55px;
+     }
+     footer .top .row-top .col-top-flex { 
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: start;
      }
      footer .top .row-top { 
         flex-wrap: wrap;
@@ -1646,20 +1665,21 @@ left: 38%;
      .account .row .col { 
         width: 100%;
      }
-     .account .row .col .info-top .first-span { 
-        position: initial;
+     .account .row .col .info-top .span-different { 
+        top: -50px;
+        left: -150px;
      }
      .account .row .col .info-top h3 { 
         text-align: center;
-     }
-     .account .row .col .icon { 
-        display: none;
      }
      .quote .title h1::before { 
         left: 35%;
      }
      .account .title h3::before { 
         left: 35%;
+     }
+     .quote { 
+        padding: 50px 20px;
      }
      .quote .row { 
         flex-direction: column;
@@ -1668,6 +1688,11 @@ left: 38%;
      .quote .group { 
         right: 200px;
         top: 55px;
+     }
+     footer .top .row-top .col-top-flex { 
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: start;
      }
     footer .top .row-top { 
         flex-wrap: wrap;
@@ -1824,18 +1849,22 @@ left: 38%;
      .account .row .col { 
         width: 100%;
      }
-     .account .row .col .info-top .first-span { 
-        position: initial;
-     }
      .account .row .col .info-top h3 { 
         text-align: center;
      }
-     .account .row .col .icon { 
-        display: none;
+     .account .row .col .info-top .span-different { 
+        top: -50px;
+        left: -150px;
      }
      .quote .title h1::before { 
         left: 43%;
      }
+      footer .top .row-top .col-top-flex { 
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: start;
+     }
+    
      footer .top .row-top { 
         flex-wrap: wrap;
         row-gap: 50px;
